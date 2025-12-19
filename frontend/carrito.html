@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h2>Carrito de Compras</h2>
+  <a href="index.html">⬅ Volver</a>
+</header>
+
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="lista"></tbody>
+  </table>
+
+  <div class="total" id="total"></div>
+  <button onclick="finalizar()">Finalizar compra</button>
+  
+</div>
+
+<script src="scrip.js"></script>
+</body>
+</html>
